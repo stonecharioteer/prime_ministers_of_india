@@ -8,88 +8,108 @@
         <title>The Prime Ministers of India</title>
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
         <style>
-        * {
-            font-family: 'Merriweather', serif;
-        }
-        body {
-            background: url(img/bg.png) repeat;
-        }</style>
+            * {
+                font-family: 'Merriweather', serif;
+            }
+            
+            body {
+                background: url(img/bg.png) repeat;
+            }
+
+        </style>
     </head>
-<body>
-    <section class="hero">
-        <div class="hero-body">
+    <body>
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">The Prime Ministers of India</h1>
+                    <h2 class="subtitle">A Study of the Indians who have held the Office of Prime Minister</h2>
+                </div>
+            </div>
+        </section>
+        <section class="section">
             <div class="container">
-                <h1 class="title">The Prime Ministers of India</h1>
-                <h2 class="subtitle">A Study of the Indians who have held the Office of Prime Minister</h2>
-            </div>
-        </div>
-    </section>
-    <section class="section">
-        <div class="container">
-            <div class="tile is-ancestor"> 
-                <div class="tile is-parent is-4 is-vertical">
-                    <div class="tile is-child box">
-                        <p class="title">Preliminary Study</p>
-                        <p> In early December 2017, I began gathering data on the present and past Prime Ministers of India to get a better understanding of the people who have held that office. I wanted to do this to understand their history, the timeline of the office, and a little about how the office itself changed over time.</p>
+                <div class="tile is-ancestor"> 
+                    <div class="tile is-parent is-4 is-vertical">
+                        <div class="tile is-child box">
+                            <p class="title">Preliminary Study</p>
+                            <p> In early December 2017, I began gathering data on the present and past Prime Ministers of India to get a better understanding of the people who have held that office. I wanted to do this to understand their history, the timeline of the office, and a little about how the office itself changed over time.</p>
+                        </div>
+                        <div class="tile is-child box">
+                            <p class="title">Data Arrangement</p>
+                            <p>In this first graph, I've used the same idea as the original Reddit post I took inspiration from. The vertical axis denotes the prime ministers (both acting or otherwise), arranged according to their terms, and the horizontal axis indicates their age. This allows us to see at what point of their lives these people were in office.</p>
+                        </div>
                     </div>
-                    <div class="tile is-child box">
-                        <p class="title">Data Arrangement</p>
-                        <p>In this first graph, I've used the same idea as the original Reddit post I took inspiration from. The vertical axis denotes the prime ministers (both acting or otherwise), arranged according to their terms, and the horizontal axis indicates their age. This allows us to see at what point of their lives these people were in office.</p>
-                    </div>
-                </div>
-                <div class="tile is-parent">
-                    <div class="tile is-child box">
-                        <p class="title">Lifespans</p>
-                        <p class="subtitle">Comparison of lifespans, showing when during their lifespans, they held office.</p>
-                        <figure class="image is-5by3">
-                            <img src="img/primeministers.png">
-                        </figure>
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <p class="title">Lifespans</p>
+                            <p class="subtitle">Comparison of lifespans, showing when during their lifespans, they held office.</p>
+                            <figure class="image is-5by3">
+                                <img src="img/primeministers.png">
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section">
-        <div class="container">
-            <div class="tile is-ancestor">
-                <div class="tile is-parent is-vertical is-4">
-                    <div class="tile is-child box">
-                        <p class="title">Digging In</p>
-                        <p>After understanding the juncture in their lives in which they attained office, it is interesting to note which of the Prime Ministers were alive during each others' tenures. It helps us gain perspective on their policies, and understand how the office evolved.</p>
-                    </div>
-                    <div class="tile is-child box">
-                        <p class="title">Data Arrangement</p>
-                        <p>This graph adds to the previous one: now the horizontal axis denotes the year and naturally, each horizontal bar is offset according to the Prime Ministers' birth date.</p>
-                    </div>
-                </div>
-                <div class="tile is-parent">
-                    <div class="tile is-child box">
-                        <p class="title">Tenure and Timeline</p>
-                        <figure class="image is-5by3">
-                            <img src="img/primeministers_offset.png">
-                        </figure>
-                    </div>
-                </div>
-                                
-            </div>
-        </div>
-    </section>
-    <section class="section">
-        <div class="container">
-            <div class="tile is-ancestor">
-                <div class="tile is-parent is-vertical">
-                    <div class="tile is-child box">
-                        <p class="title">Collective Overview</p>
-                        <p>In such a study, a chronological overview adds much by way of intepretation. Below is an interactive timeline (created using KnightLab's TimelineJS module) which showcases the timeline of the years following Independence, focussing primarily on the events surrounding the Prime Ministers.</p>
-                    </div>
-                    <div class="tile is-child box">
-                        <p class="title">Timeline</p>
-                        <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=14mZ0eJgVVnsYBwgD6ISdoz20U5QAMOL5cIDUPcB7f4U&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <p class="title">Tenure and Timeline</p>
+                            <figure class="image is-5by3">
+                                <img src="img/primeministers_offset.png">
+                            </figure>
+                        </div>
+                    </div>           
+                    <div class="tile is-parent is-vertical is-4">
+                        <div class="tile is-child box">
+                            <p class="title">Digging In</p>
+                            <p>After understanding the juncture in their lives in which they attained office, it is interesting to note which of the Prime Ministers were alive during each others' tenures. It helps us gain perspective on their policies, and understand how the office evolved.</p>
+                        </div>
+                        <div class="tile is-child box">
+                            <p class="title">Data Arrangement</p>
+                            <p>This graph adds to the previous one: now the horizontal axis denotes the year and naturally, each horizontal bar is offset according to the Prime Ministers' birth date.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-    </section>
-</body>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-vertical">
+                        <div class="tile is-child box">
+                            <p class="title">Collective Overview</p>
+                            <p>In such a study, a chronological overview adds much by way of intepretation. Below is an interactive timeline (created using KnightLab's TimelineJS module) which showcases the timeline of the years following Independence, focussing primarily on the events surrounding the Prime Ministers.</p>
+                        </div>
+                        <div class="tile is-child box">
+                            <p class="title">Timeline</p>
+                            <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=14mZ0eJgVVnsYBwgD6ISdoz20U5QAMOL5cIDUPcB7f4U&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <p>Made by Vinay Keerthi using data available on Wikipedia.</p>
+                    <p>Follow me: 
+                        <a href="https://www.instagram.com/stonecharioteer"><i class="fa fa-instagram"></i>stonecharioteer</a> | 
+                        <a href="https://www.twitter.com/vinay87"><i class="fa fa-twitter"></i>vinay87</a> |
+                        <a href="https://www.github.com/vinay87"><i class="fa fa-github"></i>vinay87</a>
+                    </p> 
+                    <a href="https://bulma.io">
+                        <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128" height="24">
+                    </a>
+                    
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
